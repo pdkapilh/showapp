@@ -11,4 +11,4 @@ SET
     course_subject_id = {{sel_courseSubject.selectedOptionValue}},
     updated = now()
 WHERE
-    id = {{tbl_courseSubjects.triggeredRow.Id}};
+    id = {{tbl_courseSubjects.triggeredRowIndex}};
