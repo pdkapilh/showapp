@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1060,
+          "bottomRow": 1030,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,12 +29,13 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Courses_createSubject",
-              "name": "createSubject",
+              "id": "Courses_utils.getCourseBySubject",
+              "name": "utils.getCourseBySubject",
+              "collectionId": "Courses_utils",
               "confirmBeforeExecute": false,
-              "pluginType": "DB",
+              "pluginType": "JS",
               "jsonPathKeys": [
-                "this.params.name"
+                "async () => {\n  const courses = await fetchCoursesBySubject.run();\n  return courses.map(c => {\n    return {\n      Id: c.course_id,\n      Name: c.course_name,\n      Duration: c.course_duration,\n      Description: c.course_description,\n      Image: c.course_thumbnail_url,\n      Type: c.type_name,\n      Level: c.level_name,\n      Instructor: c.course_instructor,\n      Language: c.course_language\n    };\n  });\n}"
               ],
               "timeoutInMillisecond": 10000
             }
