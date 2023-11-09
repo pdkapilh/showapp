@@ -8,24 +8,12 @@
     "archivedActions": [],
     "variables": [
       {
-        "name": "moduleContent",
-        "value": "{}"
-      },
-      {
-        "name": "addQuestion",
-        "value": "false"
-      },
-      {
-        "name": "showNewQuestion",
-        "value": "false"
-      },
-      {
-        "name": "newQuestionType",
+        "name": "updatedSubjectName",
         "value": "''"
       },
       {
-        "name": "newQuizQuestions",
-        "value": "[]"
+        "name": "subject",
+        "value": "{}"
       }
     ],
     "userPermissions": []

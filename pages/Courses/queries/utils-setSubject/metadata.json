@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "updateVideoContent",
-    "fullyQualifiedName": "utils.updateVideoContent",
+    "name": "setSubject",
+    "fullyQualifiedName": "utils.setSubject",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -20,7 +20,11 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": []
+      "jsArguments": [
+        {
+          "name": "subject"
+        }
+      ]
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -34,10 +38,9 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-11-09T22:14:04Z"
+    "userPermissions": []
   },
-  "id": "Courses_utils.updateVideoContent",
+  "id": "Courses_utils.setSubject",
   "deleted": false,
-  "gitSyncId": "654d5262d17abe37b798be5c_654d59acd17abe37b798beb9"
+  "gitSyncId": "654d5262d17abe37b798be5c_654d6dc4d17abe37b798bf10"
 }

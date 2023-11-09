@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "updateReadingContent",
-    "fullyQualifiedName": "utils.updateReadingContent",
+    "name": "updateSubjectName",
+    "fullyQualifiedName": "utils.updateSubjectName",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -34,10 +34,9 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-11-09T22:14:04Z"
+    "userPermissions": []
   },
-  "id": "Courses_utils.updateReadingContent",
+  "id": "Courses_utils.updateSubjectName",
   "deleted": false,
-  "gitSyncId": "654d5262d17abe37b798be5c_654d59acd17abe37b798beb4"
+  "gitSyncId": "654d5262d17abe37b798be5c_654d6dc4d17abe37b798bf1a"
 }

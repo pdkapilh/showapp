@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "removeQuizContent",
-    "fullyQualifiedName": "utils.removeQuizContent",
+    "name": "createSubject",
+    "fullyQualifiedName": "utils.createSubject",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -34,10 +34,9 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-11-09T22:14:04Z"
+    "userPermissions": []
   },
-  "id": "Courses_utils.removeQuizContent",
+  "id": "Courses_utils.createSubject",
   "deleted": false,
-  "gitSyncId": "654d5262d17abe37b798be5c_654d59acd17abe37b798beb8"
+  "gitSyncId": "654d5262d17abe37b798be5c_654d6dc4d17abe37b798bf13"
 }

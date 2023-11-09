@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "setShowNewQuestion",
-    "fullyQualifiedName": "utils.setShowNewQuestion",
+    "name": "setUpdatedSubjectName",
+    "fullyQualifiedName": "utils.setUpdatedSubjectName",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -22,7 +22,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": [
         {
-          "name": "isShowNewQuestion"
+          "name": "name"
         }
       ]
     },
@@ -38,10 +38,9 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-11-09T22:14:04Z"
+    "userPermissions": []
   },
-  "id": "Courses_utils.setShowNewQuestion",
+  "id": "Courses_utils.setUpdatedSubjectName",
   "deleted": false,
-  "gitSyncId": "654d5262d17abe37b798be5c_654d59acd17abe37b798beb0"
+  "gitSyncId": "654d5262d17abe37b798be5c_654d6dc4d17abe37b798bf1d"
 }
