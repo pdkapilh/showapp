@@ -1,0 +1,11 @@
+UPDATE public."course" SET
+    "name" = '',
+    "description" = '',
+    "duration" = '',
+    "language" = '',
+    "instructor" = '',
+    "thumbnail_url" = '',
+    "course_type_id" = 1,
+    "course_level_id" = 1,
+    "course_subject_id" = 1
+  WHERE 1 = 0; -- Specify a valid condition here. Removing the condition may update every row in the table!

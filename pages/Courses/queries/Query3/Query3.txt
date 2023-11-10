@@ -1,0 +1,2 @@
+INSERT INTO public."course_level" ("name")
+  VALUES ('1');

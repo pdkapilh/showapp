@@ -16,7 +16,7 @@
     "pageId": "Courses",
     "collectionId": "Courses_utils",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-11-09T23:39:48Z"
+    "createdAt": "2023-11-10T00:24:17Z"
   },
   "id": "Courses_utils.getCourseBySubject",
   "deleted": false,
-  "gitSyncId": "654d5262d17abe37b798be5c_654d6dc4d17abe37b798bf11"
+  "gitSyncId": "654d5262d17abe37b798be5c_654d7831d17abe37b798bfc0"
 }
